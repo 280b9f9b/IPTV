@@ -1,0 +1,39 @@
+.IPTVBody {
+    background-color: #1B2631;}
+  
+  .IPTVHeader {
+    padding: 10px;
+    text-align: center;
+    background: #1760af;
+    color: white;
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+    font-size: 15px;
+    font-weight: bold;}
+  
+  .IPTVFooter {
+    padding: 10px;
+    text-align: center;
+    background: #d33f3f;
+    color: white;
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+    font-size: 15px;
+    font-weight: bold;}
+  
+  .IPTVBox {
+    display: inline-block;
+    padding: 8px;
+    vertical-align: top;
+    position: relative;}
+  
+  .IPTVCover {
+    width: 100px;
+    height:130px;
+    position: relative;
+    border-radius: 5% !important;}
+  
+  .IPTVText {
+    text-align: center;
+    color: white;
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+    font-size: 12px;
+    width: 100px;}
