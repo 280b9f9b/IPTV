@@ -1,0 +1,37 @@
+<html><head>
+        <meta charset="utf-8"><meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title></title></head><body style="background-color:rgb(0, 0, 0);"><link href='data/video-js.css' rel='stylesheet'>
+        <center><div id="app"></div></center>
+        <script>
+        //Load JSON Files (JavaScript)
+        fetch('data/ch.json')
+        .then(function (response) {return response.json();})
+        .then(function (data) {appendData(data);})
+        .catch(function (err) {console.log('error: ' + err);});
+        
+        function appendData(data) {
+
+                
+        //Set Channel Number For HTML Page chxxx = data[#-1];
+        chxxx = data[30-1];
+        
+        //Set Apple Touch icon for websites
+        var link = document.createElement('link');
+        link.rel = 'apple-touch-icon';
+        document.head.appendChild(link);
+        link.href = `../` + `${chxxx.datach[3]}`;
+        
+        //Set HTML Page Title
+        document.title = `${chxxx.datach[1]}`;
+                
+                                //Set Video Player
+        var mainContainer = document.getElementById("app").innerHTML = `
+        <video id='m3u'  class='video-js vjs-fullscreen' controls>
+        <source type='application/x-mpegURL' src="${chxxx.datach[2]}"></video>`;
+}
+        </script>
+        <script src='https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.js'></script>
+        <script src='https://vjs.zencdn.net/7.2.3/video.js'></script>
+        <script> var player = videojs('m3u');player.play();</script></body></html>
