@@ -1,6 +1,6 @@
 [
   
-{"datach":["channels/ch0001.html","Abu Dhabi Aloula (1080p)","https://admdn2.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/playlist.m3u8","img/Abu Dhabi Aloula (1080p).jpg"]},
-{"datach":["channels/ch0002.html","Abu Dhabi Emirates (1080p)","https://admdn3.cdn.mangomolo.com/emarat/smil:emarat.stream.smil/playlist.m3u8","img/Abu Dhabi Emirates (1080p).jpg"]}
+{"datach":["channels/ch0001.html","American Classics (432p)","https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxamericanclassics/CDN/playlist.m3u8","img/American Classics (432p).jpg"]},
+{"datach":["channels/ch0002.html","American Horrors (480p)","http://170.178.189.66:1935/live/Stream1/playlist.m3u8","img/American Horrors (480p).jpg"]}
 
 ]
