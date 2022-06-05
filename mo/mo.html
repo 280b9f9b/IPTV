@@ -20,7 +20,7 @@ function IPTVTemplate(iptv) {return `
 //Display JSON Data
 function appendData(data) {
 var mainContainer = document.getElementById("app").innerHTML = `
-<h1 class="IPTVHeader">AE (${data.length})</h1>
+<h1 class="IPTVHeader">MO (${data.length})</h1>
 ${data.map(IPTVTemplate).join("")}
 <p class="IPTVFooter">These ${data.length} Channels were added recently. Check back soon for updates.</p>`;}
 </script></body></html>
