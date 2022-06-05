@@ -7,7 +7,7 @@
 <div id="app"></div>
 <script>
 //Load JSON Files (JavaScript)
-fetch('channels/data/ch.json')
+fetch('https://raw.githubusercontent.com/280b9f9b/IPTV/main/en/channels/data/ch.json')
 .then(function (response) {return response.json();})
 .then(function (data) {appendData(data);})
 .catch(function (err) {console.log('error: ' + err);});
