@@ -13,14 +13,30 @@ fetch('https://raw.githubusercontent.com/280b9f9b/IPTV/main/ae/channels/data/ch.
 .catch(function (err) {console.log('error: ' + err);});
 
 //Display JSON Data
-function IPTVTemplate(iptv) {return `
-<div class="IPTVBox"><a href="${iptv.datach[0]}"><img class="IPTVCover" src="${iptv.datach[3]}"></a>
-<h2 class="IPTVText">${iptv.datach[1]}</h2></div>`;}
+function IPTVTemplate(iptv) {
+  // Validate the URL
+  const img = new Image();
+  img.src = iptv.datach[3];
+  img.onerror = function() {
+    // Make the image transparent in case of invalid URL
+    document.getElementById(`iptv-${iptv.datach[3]}`).style.opacity = 0.1;
+  };
+  return `
+    <div class="IPTVBox">
+      <a href="${iptv.datach[0]}">
+        <img class="IPTVCover" src="${iptv.datach[3]}" id="iptv-${iptv.datach[3]}">
+      </a>
+      <h2 class="IPTVText">${iptv.datach[1]}</h2>
+    </div>
+  `;
+}
 
 //Display JSON Data
 function appendData(data) {
-var mainContainer = document.getElementById("app").innerHTML = `
-<h1 class="IPTVHeader">AE (${data.length})</h1>
-${data.map(IPTVTemplate).join("")}
-<p class="IPTVFooter">These ${data.length} Channels were added recently. Check back soon for updates.</p>`;}
+  var mainContainer = document.getElementById("app").innerHTML = `
+    <h1 class="IPTVHeader">EN (${data.length})</h1>
+    ${data.map(IPTVTemplate).join("")}
+    <p class="IPTVFooter">These ${data.length} Channels were added recently. Check back soon for updates.</p>
+  `;
+}
 </script></body></html>
