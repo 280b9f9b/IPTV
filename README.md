@@ -19,7 +19,7 @@ That's a [IPTV](https://280b9f9b.github.io/IPTV/IPTV) project! Having all your f
 
 
 
-[IPTV](https://280b9f9b.github.io/IPTV/Vo1)
+[V01](https://280b9f9b.github.io/IPTV/V01)
 
 
 [<img src=https://raw.githubusercontent.com/280b9f9b/IPTV/main/img/main.png height=100/>](https://280b9f9b.github.io/IPTV/)
