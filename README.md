@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/280b9f9b/IPTV">
-    <img src="https://280b9f9b.github.io/IPTV/Resource/IPTV" alt="Logo" width="80" height="80">
+    <img src="https://280b9f9b.github.io/IPTV/Resource/main.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">IPTV</h3>
