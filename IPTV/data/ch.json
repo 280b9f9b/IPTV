@@ -23,35 +23,35 @@
   {
     "Link": "channels/4.html",
     "Name": "NG Abu Dhabi",
-    "M3U": "https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8",
+    "M3U": "https://vo-live.cdb.cdn.orange.com/Content/Channel/NationalGeographicHDChannel/HLS/index.m3u8",
     "ArtworkIcons": "img/NG Abu Dhabi.jpg",
     "Category": "Documentary"
   },
   {
     "Link": "channels/5.html",
     "Name": "Majid TV",
-    "M3U": "https://admdn5.cdn.mangomolo.com/majid/smil:majid.stream.smil/playlist.m3u8",
+    "M3U": "https://vo-live.cdb.cdn.orange.com/Content/Channel/MajidChildrenChannel/HLS/index.m3u8",
     "ArtworkIcons": "img/Majid TV.jpg",
     "Category": "Kids"
   },
   {
     "Link": "channels/6.html",
     "Name": "Yas",
-    "M3U": "https://admdn1ta.cdn.mgmlcdn.com/yastv/smil:yastv.stream.smil/playlist.m3u",
+    "M3U": "https://vo-live.cdb.cdn.orange.com/Content/Channel/YASSportsChannel/HLS/index.m3u8",
     "ArtworkIcons": "img/Yas.jpg",
     "Category": "Sports"
   },
   {
     "Link": "channels/7.html",
     "Name": "Abu Dhabi Sports 1",
-    "M3U": "https://admdn1ta.cdn.mgmlcdn.com/adsports1/smil:adsports1.stream.smil/playlist.m3u",
+    "M3U": "https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8",
     "ArtworkIcons": "img/Abu Dhabi Sports 1.jpg",
     "Category": "Sports"
   },
   {
     "Link": "channels/8.html",
     "Name": "Abu Dhabi Sports 2",
-    "M3U": "https://admdn5ta.cdn.mgmlcdn.com/adsports2/smil:adsports2.stream.smil/playlist.m3u",
+    "M3U": "https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel2/HLS/index.m3u8",
     "ArtworkIcons": "img/Abu Dhabi Sports 2.jpg",
     "Category": "Sports"
   },
